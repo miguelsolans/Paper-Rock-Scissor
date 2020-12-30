@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.gameViewModel = [[GameViewModel alloc] initWithUserName:@"Miguel"];
+    self.gameViewModel = [[GameViewModel alloc] initWithUserName:@"User"];
     
     [self initNotifcations];
     [self updateView];
@@ -30,7 +30,7 @@
 - (void) updateView {
     // TODO: update view - score, change player names to methods
     [self.adversaryName setText:@"Machine"];
-    [self.userName setText:@"Miguel"];
+    [self.userName setText:@"User"];
 }
 
 - (void) updateAdversaryChoice: (NSInteger) number {
