@@ -21,6 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.gameViewModel = [[GameViewModel alloc] initWithUserName:@"Miguel"];
+    
     [self initNotifcations];
     [self updateView];
     

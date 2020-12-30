@@ -21,8 +21,18 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jh4-eS-I77" userLabel="headerView">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rock, Paper, Scissors!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWM-Wo-eJe">
+                                                <rect key="frame" x="31" y="34" width="313" height="32.5"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="29"/>
+                                                <color key="textColor" red="0.36862745098039218" green="0.39215686274509803" blue="0.44705882352941173" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstItem="FWM-Wo-eJe" firstAttribute="centerX" secondItem="jh4-eS-I77" secondAttribute="centerX" id="Hy2-GL-kqY"/>
+                                            <constraint firstItem="FWM-Wo-eJe" firstAttribute="centerY" secondItem="jh4-eS-I77" secondAttribute="centerY" id="Xqz-Gg-CjG"/>
                                             <constraint firstAttribute="height" constant="100" id="pm2-Un-b7J"/>
                                         </constraints>
                                     </view>
@@ -30,25 +40,25 @@
                                         <rect key="frame" x="0.0" y="100" width="375" height="467"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="✊🏼" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evD-rj-gqu">
-                                                <rect key="frame" x="150" y="299" width="75" height="84"/>
+                                                <rect key="frame" x="150" y="329" width="75" height="84"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adversary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OcN-eK-2TI">
-                                                <rect key="frame" x="25" y="25" width="325" height="30"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                <nil key="textColor"/>
+                                                <rect key="frame" x="25" y="25" width="325" height="45"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="40"/>
+                                                <color key="textColor" red="1" green="0.65098039215686276" blue="0.61960784313725492" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SO2-xf-jaQ">
-                                                <rect key="frame" x="25" y="229" width="325" height="30"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                <nil key="textColor"/>
+                                                <rect key="frame" x="25" y="244" width="325" height="45"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="40"/>
+                                                <color key="textColor" red="0.68235294117647061" green="0.85098039215686272" blue="0.8784313725490196" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="✊🏼" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHb-Tf-VgC">
-                                                <rect key="frame" x="150" y="95" width="75" height="84"/>
+                                                <rect key="frame" x="150" y="110" width="75" height="84"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -86,7 +96,7 @@
                                                                 </connections>
                                                             </button>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <color key="backgroundColor" red="0.98039215686274506" green="0.95294117647058818" blue="0.8666666666666667" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstItem="vRZ-1d-bYd" firstAttribute="centerX" secondItem="m9f-Oa-GT1" secondAttribute="centerX" id="GVr-99-HwK"/>
                                                             <constraint firstItem="vRZ-1d-bYd" firstAttribute="centerY" secondItem="m9f-Oa-GT1" secondAttribute="centerY" id="pXc-K4-D66"/>
@@ -104,7 +114,7 @@
                                                                 </connections>
                                                             </button>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <color key="backgroundColor" red="0.98039215686274506" green="0.95294117647058818" blue="0.8666666666666667" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstItem="cKq-47-hiJ" firstAttribute="centerX" secondItem="FGg-ox-mI2" secondAttribute="centerX" id="bQj-Oy-k8H"/>
                                                             <constraint firstItem="cKq-47-hiJ" firstAttribute="centerY" secondItem="FGg-ox-mI2" secondAttribute="centerY" id="oXZ-N9-r4S"/>
@@ -122,7 +132,7 @@
                                                                 </connections>
                                                             </button>
                                                         </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <color key="backgroundColor" red="0.98039215686274506" green="0.95294117647058818" blue="0.8666666666666667" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstItem="Eu1-cZ-4mI" firstAttribute="centerY" secondItem="k78-AV-5Mj" secondAttribute="centerY" id="46L-iU-BDL"/>
                                                             <constraint firstItem="Eu1-cZ-4mI" firstAttribute="centerX" secondItem="k78-AV-5Mj" secondAttribute="centerX" id="MIb-hZ-hCJ"/>
